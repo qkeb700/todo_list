@@ -1,0 +1,107 @@
+@charset "UTF-8";
+.main-container{
+	width: 1200px;
+}
+.headline{
+	margin-top: 30px;
+}
+.listTitle{
+	position: absolute;
+	transform: rotate(-30deg);
+	margin-top: 30px;
+	font-weight: bold;
+	color: #599bb3;
+}
+.btnTodo{
+	color: white;
+	border: none;
+	background: #2dabf9;
+	padding: 5px 20px;
+	float: right;
+}
+section.wholeTable{
+	margin: 30px 0 0 100px;
+}
+#TODO{
+	float: left;
+}
+#DOING{
+	float: left;
+	margin-left: 5px;
+}
+#DONE{
+	float:left;
+	margin-left: 5px;;
+}
+.tableHeader{
+	width: 280px;
+	height: 30px;
+	color: white;
+	background-color: rgb(50, 80, 100);
+	line-height: 30px;
+	margin-right: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+.card{
+	position: relative;
+	width: 280px;
+	height: 45px;
+	background-color: rgb(200, 230, 240);
+	margin: 5px 0;
+	padding: 10px;
+}
+.card-title{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+.card-desc{
+	margin-top:7px;
+	color:grey;
+	font-size: 13px;
+}
+.arrowBtn{
+	position:absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 5;
+}
+
+/****** WRITE *******/
+.container{
+	margin: 0 auto;
+	width: 300px;
+}
+.writeTitle{
+	font-weight: bold;
+	text-align: center;
+}
+label{
+	display:block;
+}
+input[type=text]{
+	margin-bottom:15px;
+	padding: 5px;
+}
+.btn-group{
+	margin-top: 30px;
+}
+.previous{
+	border: 1px solid grey;
+	background: #fff;
+	padding: 3px 12px;
+	font-size: 13px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.float-right{
+	float:right;
+	color: white;
+	margin-left: 10px;
+	background:#2dabf9;
+	border: none;
+	padding: 7px 15px;
+	font-size: 10px;
+}
