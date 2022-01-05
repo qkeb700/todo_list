@@ -10,9 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import todo.TodoDao;
 import todo.TodoDto;
 
-/**
- * Servlet implementation class TodoAddServlet
- */
 @WebServlet("/TodoAddServlet")
 public class TodoAddServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
